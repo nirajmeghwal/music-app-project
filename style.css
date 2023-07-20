@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@300&family=Quicksand&display=swap');
+body{
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Dosis', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    align-items: center;
+     height: 65px;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.webname img{
+    width: 40px;
+    padding: 0 8px;
+}
+.webname{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    cursor: pointer;
+    margin-right: 50px ;
+    margin-left: 50px;
+}
+#progress{
+    width: 85vh;
+    cursor: pointer;
+}
+
+.song{
+    height:25px;
+    display:flex;
+    background-color:white;
+    color:black;
+    width:auto;
+    padding:12px;
+    margin:12px 20px;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:34px;
+
+}
+.songPlay{
+    color:black;
+    margin-left:50px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 13vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.container button{
+    height: 20px;
+}
