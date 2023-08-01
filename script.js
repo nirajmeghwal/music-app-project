@@ -83,6 +83,7 @@ masterplay.addEventListener('click',()=>{
         firstplay=true;
     }
 })
+
 document.getElementById('next').addEventListener('click',()=>{
     if(songIndex>=songs.length-1){
         songIndex=0;
